@@ -49,6 +49,6 @@ function handleError(errmsg:string):never{ //never type represents values which 
     throw new Error(errmsg)
 }
 
-
+//functions in type script 
 
 export {}

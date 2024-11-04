@@ -53,4 +53,17 @@ myUser.email = "ayush@gmail.com" //allowed
 // myUser._id = "456" //not allowed
 // if _id will be array then we can push the value
 
+type cardNumber = {
+    cardNumber:string
+}
+
+type cardDate = {
+    cardDate:string
+}
+
+type cardDetails = cardNumber & cardDate & {
+    cvv: number
+}
+
+
 export {}
